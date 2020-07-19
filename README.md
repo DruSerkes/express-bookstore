@@ -17,6 +17,12 @@ I also wrote tests for every route, testing both success and error cases.
 
 --- 
 
+### Running Tests 
+Tests are written using Jest and Supertest. Make sure dependencies have been installed, then from the route directory you can run tests with  
+``` 
+jest /routes/books.test.js
+``` 
+
 ### What I learned
 
 This project taught me both the basics of API validation, and the point of validating data in the first place (having requests fail fast, avoiding errors down the road with corrupt/incomplete data, giving the user adequate feedback, etc). 
