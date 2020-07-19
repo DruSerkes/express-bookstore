@@ -23,6 +23,8 @@ Tests are written using Jest and Supertest. Make sure dependencies have been ins
 jest /routes/books.test.js
 ``` 
 
+--- 
+
 ### What I learned
 
 This project taught me both the basics of API validation, and the point of validating data in the first place (having requests fail fast, avoiding errors down the road with corrupt/incomplete data, giving the user adequate feedback, etc). 
