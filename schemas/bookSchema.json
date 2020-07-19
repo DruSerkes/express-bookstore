@@ -24,7 +24,7 @@
 			"$id": "#/properties/isbn",
 			"type": "string",
 			"title": "The isbn schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "What is the isbn for this book?",
 			"default": "",
 			"examples": [ "0691161518" ]
 		},
@@ -32,7 +32,7 @@
 			"$id": "#/properties/amazon_url",
 			"type": "string",
 			"title": "The amazon_url schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "Amazon url for this book",
 			"default": "",
 			"examples": [ "http://a.co/eobPtX2" ]
 		},
@@ -40,7 +40,7 @@
 			"$id": "#/properties/author",
 			"type": "string",
 			"title": "The author schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "Who is the book author?",
 			"default": "",
 			"examples": [ "Matthew Lane" ]
 		},
@@ -48,7 +48,7 @@
 			"$id": "#/properties/language",
 			"type": "string",
 			"title": "The language schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "In what language was this written?",
 			"default": "",
 			"examples": [ "english" ]
 		},
@@ -56,7 +56,7 @@
 			"$id": "#/properties/pages",
 			"type": "integer",
 			"title": "The pages schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "How many pages does this book have?",
 			"default": 0,
 			"examples": [ 264 ]
 		},
@@ -64,7 +64,7 @@
 			"$id": "#/properties/publisher",
 			"type": "string",
 			"title": "The publisher schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "Who published this book?",
 			"default": "",
 			"examples": [ "Princeton University Press" ]
 		},
@@ -72,7 +72,7 @@
 			"$id": "#/properties/title",
 			"type": "string",
 			"title": "The title schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "Title of this book?",
 			"default": "",
 			"examples": [ "Power-Up: Unlocking the Hidden Mathematics in Video Games" ]
 		},
@@ -80,8 +80,9 @@
 			"$id": "#/properties/year",
 			"type": "integer",
 			"title": "The year schema",
-			"description": "An explanation about the purpose of this instance.",
+			"description": "What year was this book published?",
 			"default": 0,
+			"maximum": 2021,
 			"examples": [ 2017 ]
 		}
 	}
